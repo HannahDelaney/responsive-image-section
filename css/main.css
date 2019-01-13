@@ -104,12 +104,46 @@ div {
     font-size: 120%;
   }
 
+  section {
+    margin: 1rem 0;
+  }
+
+  .text {
+    width: 47%;
+  }
+
+  .image {
+    width: 48%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  section {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .text {
+    width: 35%;
+    text-align: left;
+  }
+
+  h1 {
+    margin: 1.5rem 0;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  .image {
+    width: 35%;
   }
 
 }
